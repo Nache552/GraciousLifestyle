@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Georgia', serif;
+    background: #fff9f6;
+    color: #4a2e2a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #800020;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+input, button {
+    padding: 0.75em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+button {
+    background-color: #b58e31;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a0792b;
+}
+
+.download-link {
+    display: inline-block;
+    margin-top: 1em;
+    background-color: #800020;
+    color: white;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f3e9e2;
+    color: #333;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
